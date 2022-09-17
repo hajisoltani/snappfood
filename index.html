@@ -1,0 +1,1574 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <title>Snapp Food</title>
+</head>
+
+<body dir="rtl">
+    <header>
+        <div class="container-md ">
+            <nav class="header-navbar ">
+                <ul class="menu">
+                    <li class="menu-right">
+                        <img src="img/snappfood_logo.svg" alt="" class="img-fluid" name="main-logo">
+                    </li>
+                    <button class="hamburger-menu" type="button" data-bs-toggle="modal"
+                        data-bs-target="#loginBackdrop"><img src="img/icons8-contacts-64.png" class="img-fluid" alt=""
+                            name="hamburger-logo"></button>
+                    <li class="menu-left">
+                        <a href="" class="munu-left-link">
+                            <button class="signup"><img src="img/icons8-shop-64.png" alt="" class="img-fluid">
+                                <apan> ثبت نام فروشندگان</apan>
+                            </button>
+                        </a>
+
+
+                        <button class="login" type="button" data-bs-toggle="modal" data-bs-target="#loginBackdrop">
+                            <span>ورود</span> یا<span> عضویت</span> </button>
+
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="banner row row-cols-3 justify-content-center m-0">
+
+                <div class="banner-content col col-xl-7 col-lg-10 col-md-11 col-sm-12 col-12 d-flex   row">
+                    <div class="banner-content-box">
+                        <h1>
+                            <span>سفارش آنلاین</span>
+
+                            <div class="slider">
+                                <ul class="slider-items">
+                                    <!-- 
+                                    <li class="slider-item lineUp">میوه</li>
+                                    <li class="slider-item lineUp">نان</li> -->
+                                    <li class="slider-item lineUp">خواروبار</li>
+                                    <li class="slider-item lineUp">قهوه </li>
+                                    <li class="slider-item lineUp">شیرینی </li>
+                                    <!-- <li class="slider-item lineUp">غذا </li>
+                                    <li class="slider-item lineUp">پیتزا </li> -->
+
+                                </ul>
+                            </div>
+                        </h1>
+
+
+
+                        <p> سفارش آنلاین غذا
+                            ، میوه، نان، شیرینی و ...</p>
+                        <div class="search ">
+                            <input type="text" value="" placeholder="ابتدا آدرستان را انتخاب کنید."><img
+                                src="img/icons8-home-address-24.png" alt="" class="img-fluid">
+                            <button type="submit"><img src="img/icons8-search.svg" class="img-fluid" alt=""></button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="banner-img col-5  d-flex   p-0 m-0">
+                    <img src="img/hero-image.png" alt="" class="img-fluid">
+                </div>
+                <div class="row">
+                    <div class="service  col-11 ">
+                        <!-- <nav class="service-lists"> -->
+                        <ul class="service-lists">
+                            <li class="nav-item">
+                                <a href="#" class="list-link ">
+                                    <img src="img/desktop_1_603508bf202d8_img_st_food.png" alt="" class="img-fluid">
+                                    <span class="service-list-span"> رستوران</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="list-link ">
+                                    <img src="img/desktop_4_603508a14ab73_img_st_supermarket.png" alt=""
+                                        class="img-fluid">
+                                    <span class="service-list-span"> سوپر مارکت</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="list-link ">
+                                    <img src="img/desktop_2_603508b330711_img_st_cafe.png" alt="" class="img-fluid">
+                                    <span class="service-list-span"> کافه</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="list-link ">
+                                    <img src="img/desktop_3_603508a95b9be_img_st_sweet.png" alt="" class="img-fluid">
+                                    <span class="service-list-span"> شیرینی</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="list-link ">
+                                    <img src="img/desktop_5_60350898c61b5_img_st_bakery.png" alt="" class="img-fluid">
+                                    <span class="service-list-span"> نانوایی</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="list-link ">
+                                    <img src="img/desktop_6_6035088cbcde4_img_st_fruit.png" alt="" class="img-fluid">
+                                    <span class="service-list-span"> میوه</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="list-link ">
+                                    <img src="img/desktop_11_603507afc9a32_img_st_meat.png" alt="" class="img-fluid">
+                                    <span class="service-list-span"> پروتئن</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="list-link ">
+                                    <img src="img/desktop_8_6035087b463a3_img_st_icecream.png" alt="" class="img-fluid">
+                                    <span class="service-list-span"> آبمیوه بستی</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="list-link ">
+                                    <img src="img/desktop_7_60350883d6e43_img_st_nut.png" alt="" class="img-fluid">
+                                    <span class="service-list-span"> آجیل</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="list-link ">
+                                    <img src="img/desktop_9_603b811b1d540_img_st_other2.png" alt="" class="img-fluid">
+                                    <span class="service-list-span"> سایر</span>
+                                </a>
+                            </li>
+
+
+                        </ul>
+
+
+                        <!-- </nav> -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- end header///// -->
+
+    <!-- start section1// -->
+    <section class="reservation">
+        <div class="container">
+            <div class="reserve">
+                <p class="reserve-title"> دستبندی ها</p>
+                <div class="foods d-flex  row">
+                    <div class="food  col-lg-2 col-md-3 col-sm-4 col-6 ">
+                        <a href="#">
+                            <div class="box  ">
+                                <img src="img/reservation/website_image_irani_1.jpg" alt="" class="box-img ">
+                                <div class="food-name">
+                                    <p> ایرانی</p>
+                                    <img src="img/icons8-arrow-32.png" alt="" class="food-name-img">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="food  col-lg-2 col-md-3 col-sm-4 col-6 ">
+                        <a href="#">
+                            <div class="box  ">
+                                <img src="img/reservation/website_image_fastfood_1.jpg" alt="" class="box-img">
+                                <div class="food-name">
+                                    <p> فست فود</p>
+                                    <img src="img/icons8-arrow-32.png" alt="" class="food-name-img">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="food  col-lg-2 col-md-3 col-sm-4 col-6 ">
+                        <a href="#">
+                            <div class="box  ">
+                                <img src="img/reservation/website_image_kebab_1.jpg" alt="" class="box-img">
+                                <div class="food-name">
+                                    <p> کباب</p>
+                                    <img src="img/icons8-arrow-32.png" alt="" class="food-name-img">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="food  col-lg-2 col-md-3 col-sm-4 col-6 ">
+                        <a href="#">
+                            <div class="box  ">
+                                <img src="img/reservation/website_image_burger_1.jpg" alt="" class="box-img">
+                                <div class="food-name">
+                                    <p>برگر</p>
+                                    <img src="img/icons8-arrow-32.png" alt="" class="food-name-img">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="food  col-lg-2 col-md-3 col-sm-4 col-6 ">
+                        <a href="#">
+                            <div class="box  ">
+                                <img src="img/reservation/website_image_pizza_1.jpg" alt="" class="box-img">
+                                <div class="food-name">
+                                    <p> پیتزا</p>
+                                    <img src="img/icons8-arrow-32.png" alt="" class="food-name-img">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="food  col-lg-2 col-md-3 col-sm-4 col-6 ">
+                        <a href="#">
+                            <div class="box  ">
+                                <img src="img/reservation/website_image_sandwich_1 (1).jpg" alt="" class="box-img">
+                                <div class="food-name">
+                                    <p> ساندویچ</p>
+                                    <img src="img/icons8-arrow-32.png" alt="" class="food-name-img">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="food  col-lg-2 col-md-3 col-sm-4 col-6 ">
+                        <a href="#">
+                            <div class="box  ">
+                                <img src="img/reservation/website_image_sokhari_1.jpg" alt="" class="box-img">
+                                <div class="food-name">
+                                    <p> سوخاری</p>
+                                    <img src="img/icons8-arrow-32.png" alt="" class="food-name-img">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="food  col-lg-2 col-md-3 col-sm-4 col-6 ">
+                        <a href="#">
+                            <div class="box  ">
+                                <img src="img/reservation/website_image_italy_1.jpg" alt="" class="box-img">
+                                <div class="food-name">
+                                    <p> پاستا</p>
+                                    <img src="img/icons8-arrow-32.png" alt="" class="food-name-img">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="food  col-lg-2 col-md-3 col-sm-4 col-6 ">
+                        <a href="#">
+                            <div class="box  ">
+                                <img src="img/reservation/website_image_salad_1.jpg" alt="" class="box-img">
+                                <div class="food-name">
+                                    <p> سالاد</p>
+                                    <img src="img/icons8-arrow-32.png" alt="" class="food-name-img">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="food  col-lg-2 col-md-3 col-sm-4 col-6 ">
+                        <a href="#">
+                            <div class="box  ">
+                                <img src="img/reservation/website_image_seafood_1.jpg" alt="" class="box-img">
+                                <div class="food-name">
+                                    <p> دریایی</p>
+                                    <img src="img/icons8-arrow-32.png" alt="" class="food-name-img">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="food  col-lg-2 col-md-3 col-sm-4 col-6 ">
+                        <a href="#">
+                            <div class="box  ">
+                                <img src="img/reservation/website_image_asian_1.jpg" alt="" class="box-img">
+                                <div class="food-name">
+                                    <p> بین الملل</p>
+                                    <img src="img/icons8-arrow-32.png" alt="" class="food-name-img">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="food  col-lg-2 col-md-3 col-sm-4 col-6 ">
+                        <a href="#">
+                            <div class="box  ">
+                                <img src="img/reservation/website_image_gilani_1.jpg" alt="" class="box-img">
+                                <div class="food-name">
+                                    <p> گیلانی</p>
+                                    <img src="img/icons8-arrow-32.png" alt="" class="food-name-img">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+
+                </div>
+
+    </section>
+
+    <section class="apps">
+        <div class="container">
+            <div class="styledsection">
+
+                <div class="downloadsection d-flex row ">
+
+                    <div class="downloadsection-container col-7">
+                        <div class="downloadsection-title ">
+                            <h1>اپلیکیشن اسنپ‌فود
+                            </h1>
+                            <p> با اپلیکیشن اسنپ‌فود به راحتی و با چند کلیک ساده می‌توانید رستوران‌ها، کافه‌ها،
+                                شیرینی‌فروشی‌ها و سوپرمارکت‌های نزدیک خودتان را جست‌و‌جو کرده و از تجربه سفارش آسان از
+                                اسنپ‌فود لذت ببرید.</p>
+                        </div>
+                        <div class="downloadsection-link">
+                            <p> برای دریافت لینک دانلود اپلیکیشن، شماره موبایلتان رو وارد کنید</p>
+                            <br><input type="text" placeholder="*********09">
+                            <button type="button"> دریافت لینک</button>
+                        </div>
+                        <div class="downloadsection-apps">
+                            <a href="#"><img src="svg/cafebazaar.svg" alt=""></a>
+                            <a href="#"><img src="svg/google-play.svg" alt=""></a>
+                            <a href="#"><img src="svg/iapps.svg" alt=""></a>
+                            <a href="#"><img src="svg/sib-app.svg" alt=""></a>
+
+                        </div>
+                    </div>
+                    <div class="downloadsection-image col-5 ">
+                        <img src="img/img_app_mockup@2x.png" alt="" class=" img-fluid">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section1// -->
+
+
+    <!-- start section2// -->
+    <section class="register">
+        <div class="container">
+            <div class="vendorRegister-style d-flex">
+                <div class="register-container ">
+                    <h1>صاحب کسب و کار هستید؟</h1>
+                    <p>با اسنپ فود کسب و کارتان را آنلاین کنید و فروشتان را افزایش دهید.</p>
+                    <button class="vendor-signup"><img src="img//icons8-shop-32 (1).png" alt="" class="">
+                        ثبت نام فروشندگان
+                    </button>
+                </div>
+                <div class="register-image ">
+                    <img src="img/vendor_pic.png" alt="" class="register-img ">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section2// -->
+    <hr>
+    <!-- start section3/// -->
+    <section class="cities">
+        <h2>اسنپ فود در شهرهای ایران </h2>
+        <div class="cities-style d-flex row">
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        تهران
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        کرج
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        اصفهان
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        مشهد
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        شیراز
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        تبریز
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        قم
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        اهواز
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        یزد
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        رشت
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        ارومیه
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        کرمان
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        قزوین
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        اردبیل
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        بوشهر
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        ساری
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        کرمانشاه
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        همدان
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        زنجان
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        گرگان
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        شاهین شهر
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        بندرعباس
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        اراک
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        کاشان
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        بجنورد
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        بابل
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        نیشابور
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        یاسوج
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        اسلامشهر
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        لاهیجان
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        بابلسر
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        بیرجند
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        قائم شهر
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        سمنان
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        بندر انزلی
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        خرم آباد
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        مراغه
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        شهرکرد
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        شاهرود
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        دزفول
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        سبزوار
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        سنندج
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        ورامین
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        مرودشت
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        آبادان
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        آمل
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        پردیس
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        ساوه
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        پاکدشت
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        کیش
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        بروجرد
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        مرند
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        پرند
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        زاهدان
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        سپاهان شهر
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        رباط کریم
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        خمینی شهر
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        ایلام
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        تربت حیدریه
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        گنبد کاووس
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        نجف آباد
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        اندیمشک
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        شهر ری
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        نوشهر
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        شهریار
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        رامسر
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        لواسان
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        سلمان شهر
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        اندیشه
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        قوچان
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        قشم
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        چالوس
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        محمود آباد
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        فولادشهر
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        بهارستان
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        بومهن
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        شهرقدس
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        کازرون
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        نور
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        رویان
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        تنکابن
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        نسیم شهر
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        بهشر
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        دماوند
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        سرخ رود
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        خوی
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        ملارد
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        ایزدشهر
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        قرچک
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        لنگرود
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        فومن
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        فریدونکنار
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        نکا
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        سهند
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        زرین شهر
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        هشتگرد
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        زابل
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        چابهار
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        باقرشهر
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        ملایر
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        خرمشهر
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        کلارآباد
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        بروجن
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        میاندوآب
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        گرمسار
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        صومعه سرا
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        جاجرود
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        رودهن
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        شهرضا
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        تربت جام
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        آران بیدگل
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        میبد
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        اردکان یزد
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        شیرگاه
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        نقده
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        آستانه اشریفه
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        عباس آباد
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        خمین
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        صدرا
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        فلاورجان
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        سرعین
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        مبارکه
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        لرستان
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        سیرجان
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        مارلیک
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        بم
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        رفسنجان
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        شوشتر
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        سربندر
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        رودسر
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        گناباد
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        آبیک
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        تفرش
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        فشم
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        لار
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        علی آباد کتول
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        چهارمحال بختیاری
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        طبس
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        درود
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        گرمدره
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        نمک آبرود
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        طرقبه
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        ویلاشهر
+                    </p>
+                </a>
+            </div>
+            <div class="city col-xl-1 col-lg-2 col-md-3 col-sm-4">
+                <a href="#">
+                    <p>
+                        دامغان
+                    </p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <!-- end section3// -->
+
+    
+
+
+
+
+    
+    <!-- loginBackdrop -->
+    <div class="modal fade" id="loginBackdrop" tabindex="-1" aria-labelledby="loginBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- <h5 class="modal-title" id="loginBackdropLabel">Modal title</h5> -->
+                    <img src="img/snappfood_logo.svg" alt="" class="img-fluid" style="width: 50px; height: 50px;">
+                    <button type="button" class="btn-close m-0" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h5> ورود<span> یا</span> عضویت</h5>
+
+                    <label for="inputBackdrop"> شماره تلفن همراه</label>
+                    <input type="text" class="input-backdrop mt-2 " id="inputBackdrop" name="mobile-number">
+                    <label for="inputBackdrop"> شماره با ۰۹ شروع می‌شود </label>
+
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn-backdrop">ورود</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+<!-- footer/// -->
+<footer class="footer">
+    
+    <div class="footer-style d-flex row">
+        <div class="socialmedia col-4">
+            <div class="social-haeding d-flex">
+
+                <div class="social-heading-logo col-2 ">
+                    <a href="/">
+                        <img src="img/snappfood_logo.svg" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="social-heading-title col-10">
+                    <h1>اسنپ فود </h1>
+                    <p>تجربه سفارش غذا، از زودفود تا اسنپ‌فود</p>
+                </div>
+
+
+            </div>
+
+            <div class="social-links">
+                <a href="#">
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="1.25rem" height="1.25rem"
+                            viewBox="0 0 172 172" style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
+                                stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
+                                text-anchor="none" style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#3a3d42">
+                                    <path
+                                        d="M55.04,10.32c-24.65626,0 -44.72,20.06374 -44.72,44.72v61.92c0,24.65626 20.06374,44.72 44.72,44.72h61.92c24.65626,0 44.72,-20.06374 44.72,-44.72v-61.92c0,-24.65626 -20.06374,-44.72 -44.72,-44.72zM55.04,17.2h61.92c20.9375,0 37.84,16.9025 37.84,37.84v61.92c0,20.9375 -16.9025,37.84 -37.84,37.84h-61.92c-20.9375,0 -37.84,-16.9025 -37.84,-37.84v-61.92c0,-20.9375 16.9025,-37.84 37.84,-37.84zM127.28,37.84c-3.79972,0 -6.88,3.08028 -6.88,6.88c0,3.79972 3.08028,6.88 6.88,6.88c3.79972,0 6.88,-3.08028 6.88,-6.88c0,-3.79972 -3.08028,-6.88 -6.88,-6.88zM86,48.16c-20.85771,0 -37.84,16.98229 -37.84,37.84c0,20.85771 16.98229,37.84 37.84,37.84c20.85771,0 37.84,-16.98229 37.84,-37.84c0,-20.85771 -16.98229,-37.84 -37.84,-37.84zM86,55.04c17.13948,0 30.96,13.82052 30.96,30.96c0,17.13948 -13.82052,30.96 -30.96,30.96c-17.13948,0 -30.96,-13.82052 -30.96,-30.96c0,-17.13948 13.82052,-30.96 30.96,-30.96z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </button>
+                </a>
+                <a href="#">
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="1.25rem" height="1.25rem"
+                            viewBox="0 0 172 172" style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
+                                stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
+                                text-anchor="none" style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#3a3d42">
+                                    <path
+                                        d="M160.53333,39.77213c-5.4868,2.43667 -11.38067,4.0764 -17.56693,4.816c6.31813,-3.784 11.1628,-9.77533 13.44467,-16.91907c-5.90533,3.50307 -12.4528,6.04867 -19.42453,7.42467c-5.57853,-5.94547 -13.52493,-9.66067 -22.31987,-9.66067c-16.8904,0 -30.5816,13.69693 -30.5816,30.5816c0,2.39653 0.2752,4.73573 0.7912,6.966c-25.41587,-1.2728 -47.94787,-13.4504 -63.038,-31.9576c-2.62587,4.51787 -4.13373,9.7696 -4.13373,15.38253c0,10.60667 5.39507,19.9692 13.59947,25.45027c-5.01093,-0.16053 -9.72947,-1.53653 -13.85173,-3.82413c0,0.13187 0,0.25227 0,0.38413c0,14.82067 10.53787,27.18173 24.53293,29.98533c-2.5628,0.69947 -5.26893,1.07213 -8.06107,1.07213c-1.96653,0 -3.8872,-0.19493 -5.75053,-0.54467c3.89293,12.14893 15.1876,20.99547 28.5692,21.242c-10.46333,8.2044 -23.65,13.09493 -37.98333,13.09493c-2.46533,0 -4.902,-0.14333 -7.29853,-0.43c13.5364,8.67453 29.60693,13.73707 46.88147,13.73707c56.25547,0 87.00907,-46.60053 87.00907,-87.0148c0,-1.3244 -0.02867,-2.64307 -0.086,-3.956c5.97987,-4.3172 11.16853,-9.7008 15.26787,-15.82973z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </button>
+                </a>
+                <a href="#">
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="1.25rem" height="1.25rem"
+                            viewBox="0 0 172 172" style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
+                                stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
+                                text-anchor="none" style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#3a3d42">
+                                    <path
+                                        d="M158.71128,22.53888c-2.58,-2.18784 -6.63232,-2.50088 -10.82224,-0.81872h-0.00688c-4.40664,1.76816 -124.73784,53.38192 -129.6364,55.49064c-0.89096,0.3096 -8.67224,3.21296 -7.87072,9.68016c0.71552,5.8308 6.96944,8.24568 7.73312,8.52432l30.59192,10.4748c2.0296,6.75616 9.5116,31.6824 11.16624,37.00752c1.032,3.3196 2.71416,7.68152 5.66224,8.57936c2.58688,0.9976 5.16,0.086 6.82496,-1.2212l18.70328,-17.34792l30.19288,23.5468l0.71896,0.43c2.05024,0.90816 4.01448,1.36224 5.88928,1.36224c1.44824,0 2.838,-0.27176 4.16584,-0.81528c4.5236,-1.8576 6.33304,-6.16792 6.52224,-6.6564l22.55264,-117.22488c1.376,-6.2608 -0.53664,-9.44624 -2.38736,-11.01144zM75.68,110.08l-10.32,27.52l-10.32,-34.4l79.12,-58.48z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </button>
+                </a>
+                <a href="#">
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="1.25rem" height="1.25rem"
+                            viewBox="0 0 172 172" style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
+                                stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
+                                text-anchor="none" style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#3a3d42">
+                                    <path
+                                        d="M51.6,143.33333h-28.66667v-86h28.66667zM37.2724,45.86667c-7.9292,0 -14.33907,-6.42707 -14.33907,-14.33907c0,-7.912 6.42133,-14.3276 14.33907,-14.3276c7.90053,0 14.3276,6.42707 14.3276,14.3276c0,7.912 -6.42707,14.33907 -14.3276,14.33907zM154.8,143.33333h-27.56013v-41.85333c0,-9.98173 -0.1892,-22.81867 -14.3276,-22.81867c-14.35053,0 -16.55787,10.8704 -16.55787,22.09627v42.57573h-27.5544v-86.06307h26.4536v11.75907h0.37267c3.6808,-6.76533 12.6764,-13.8976 26.0924,-13.8976c27.92133,0 33.08133,17.82493 33.08133,40.99907z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </button>
+                </a>
+
+                <a href="#">
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="1.25rem" height="1.25rem"
+                            viewBox="0 0 172 172" style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
+                                stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
+                                text-anchor="none" style="mix-blend-mode: normal">
+                                <path d="M0,172v-172h172v172z" fill="none"></path>
+                                <g fill="#333333">
+                                    <path
+                                        d="M54.37288,9.35026c-11.66987,-0.29708 -22.30653,7.61173 -25.03434,19.43538l-3.97526,17.2168c11.08683,-18.07433 30.17021,-29.99754 51.27246,-32.04004l-17.2168,-3.97526c-1.68909,-0.39014 -3.37894,-0.59444 -5.04606,-0.63688zM84.62126,25.08333c-25.96316,0.57761 -49.64451,17.84797 -57.17936,44.12679c-9.27367,32.34317 9.42865,66.07432 41.76823,75.34798c32.33958,9.27367 66.07432,-9.42506 75.34798,-41.76823c9.27367,-32.34317 -9.42506,-66.07432 -41.76823,-75.34798c-6.06434,-1.73881 -12.17712,-2.49185 -18.16862,-2.35856zM125.99756,25.36328c18.07433,11.08683 29.99754,30.17021 32.04004,51.27246l3.97526,-17.2168c3.12108,-13.51275 -5.28575,-26.9629 -18.7985,-30.0804zM72.35254,45.11361c0.949,0.07342 1.90499,0.24557 2.85547,0.5179c7.60742,2.17867 12.00484,10.11328 9.82617,17.7207c-2.17867,7.60741 -10.12029,12.00484 -17.7277,9.82617c-7.60742,-2.17867 -12.00142,-10.11329 -9.81917,-17.7207c1.90947,-6.65649 8.22222,-10.85804 14.86523,-10.34407zM113.68685,56.9694c0.94934,0.07367 1.90455,0.24512 2.85547,0.5179c7.60741,2.17867 12.00842,10.11328 9.82617,17.7207c-2.17867,7.60383 -10.12029,12.00484 -17.7277,9.82617c-7.60742,-2.17867 -12.00484,-10.11329 -9.82617,-17.7207c1.90633,-6.65649 8.22686,-10.85975 14.87223,-10.34407zM86.12598,78.84033c3.956,0.06808 7.10178,3.32606 7.03369,7.28564c-0.06808,3.956 -3.32606,7.10178 -7.28564,7.03369c-3.956,-0.06808 -7.10178,-3.32606 -7.03369,-7.28564c0.06808,-3.956 3.32606,-7.10178 7.28564,-7.03369zM60.50374,86.45491c0.94934,0.07342 1.90454,0.23857 2.85547,0.5109c7.60742,2.17867 12.00842,10.12029 9.82617,17.7277c-2.18225,7.60742 -10.12387,12.00142 -17.7277,9.81917c-7.60742,-2.17867 -12.00842,-10.11328 -9.82617,-17.7207c1.90633,-6.65649 8.22686,-10.85104 14.87223,-10.33708zM13.9624,95.37126l-3.97526,17.2168c-3.1175,13.51275 5.28575,26.95932 18.7985,30.0804l17.2168,3.97526c-18.07075,-11.08683 -29.99754,-30.17021 -32.04004,-51.27246zM101.83106,98.30371c0.94934,0.07342 1.91154,0.24557 2.86247,0.5179c7.60742,2.17867 12.00142,10.11328 9.81917,17.7207c-2.18225,7.60741 -10.11328,12.00484 -17.7207,9.82617c-7.60742,-2.17867 -12.00484,-10.11328 -9.82617,-17.7207c1.90633,-6.65649 8.21987,-10.85804 14.86524,-10.34407zM146.64372,125.99756c-11.08683,18.07075 -30.17021,29.99754 -51.27246,32.04004l17.2168,3.97526c13.51275,3.1175 26.95932,-5.28575 30.0804,-18.7985z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class="informaiton col-3">
+            
+            <ul>
+                <li>
+                    <a href="/"><span>درباره اسنپ فود</span></a>
+                </li>
+                <li>
+                    <a href="/"><span> وبلاگ</span></a>
+                </li>
+                <li>
+                    <a href="/"><span> قوانین سایت </span></a>
+                </li>
+                <li>
+                    <a href="/"><span> حریم خصوصی</span></a>
+                </li>
+                <li>
+                    <a href="/"><span> ثبت نام فروشندگان</span></a>
+                </li>
+    
+            </ul>
+        </div>
+        <div class="informaiton col-3">
+            <ul>
+                <li>
+                    <a href="/"><span> تماس با اسنپ فود</span></a>
+                </li>
+                <li>
+                    <a href="/"><span>  پرسش های متناوب</span></a>
+                </li>
+                <li>
+                    <a href="/"><span> ثبت شکایات </span></a>
+                </li>
+                <li>
+                    <a href="/"><span>  اپلیکیشن موبایل</span></a>
+                </li>
+                
+    
+            </ul>
+        </div>
+        <div class="credit-symbol col-2">
+            <img src="img/senf.png" alt="" class="img-fluid">
+            
+        </div>
+    </div>
+    
+</footer>
+<!-- end footer//// -->
+<script src="script/script.js"></script>
+
+</html>
